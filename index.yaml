@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  plex-prefer-non-forced-subs:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-02-21T09:22:12.985025771Z"
+    description: Generic CronJob chart for Plex prefer non-forced subs. Expects existing
+      Secret; deploy in namespace that has the secret.
+    digest: da45ee472e639f83be3e73b1a4755ad9bb26cdd36356a2b20a0d25402e004f92
+    home: https://github.com/jb6magic/plex-prefer-non-forced-subs
+    keywords:
+    - plex
+    - subtitles
+    - cronjob
+    kubeVersion: '>=1.22.0-0'
+    name: plex-prefer-non-forced-subs
+    sources:
+    - https://github.com/jb6magic/plex-prefer-non-forced-subs
+    type: application
+    urls:
+    - https://jd4883.github.io/plex-prefer-non-forced-subs-helm-chart/plex-prefer-non-forced-subs-0.1.1.tgz
+    version: 0.1.1
+generated: "2026-02-21T09:22:12.984657694Z"
